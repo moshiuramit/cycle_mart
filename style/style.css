@@ -1,0 +1,177 @@
+/*
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #E1E1E1;
+}
+
+header
+{
+    width: 100%;
+    min-height: 105px;
+}
+
+footer
+{
+    width: 100%;
+    background-color: #CCCCCC;
+    min-height: 45px;
+    clear: both;
+}
+
+nav
+{
+    width: 75%;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: #999999;
+}
+
+.pad-both{
+  padding: 0 10px;
+}
+a:hover{
+    color: #E53138;
+}
+
+ul.navi
+{
+    margin: 30px 12% 0 15%;
+    height: 37px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.border-image{
+    display: none;
+}
+
+ul.navi li{
+    display: inline-block;
+    padding-right: 7%;
+    font-family: arial;
+}
+ul.navi li:last-child{
+    padding-right: 0;
+}
+ul.navi li:hover{
+
+}
+ul.navi li a{
+    font-weight: bold;
+}
+
+.head_logo
+{
+  width: 25%;
+  float: left;
+  min-height: inherit;
+}
+
+
+.home_main
+{
+  width: 1000px;
+  background-color: white;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.main_slider
+{
+  width: 100%;
+  height: auto;
+  clear: both;
+  overflow: hidden;
+}
+.main_link
+{
+  width: 100%;
+  background-color: #ffffff;
+
+}
+.link{
+  float: left;
+  width: 50%;
+}
+.add{
+  float: left;
+  width: 50%;
+}
+
+
+ul.first_link
+{
+    margin: 30px 10px;
+}
+
+
+ul.first_link li{
+    display: inline-block;
+    padding: 2%;
+    font-family: arial;
+    border-radius: 5px;
+    background-color: #edeced;
+    width: 15%;
+    box-shadow: 0 0 2px 1px rgba(0,0,0,.5);
+    margin: .3%;
+}
+
+ul.first_link li a{
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.foot{
+  text-align: center;
+  line-height: 40px;
+}
+
+*/
+body{
+  background: silver;
+}
+
+.container{
+  background: white;
+}
+
+.main_slider img{
+  min-height: 200px;
+}
+
+.footer-link a:after{
+  content: " | ";
+  display: inline-block;
+  width: 10px;
+  padding-left: 5px;
+}
+.footer-link a:last-child:after{
+  content: " ";
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .head_logo{
+    text-align: center;
+  }
+  .nav-intab{
+    text-align: center;
+    //margin: auto;
+  }
+  .nav-intab li{
+    float: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-intab li{
+    float: none;
+  }
+}
